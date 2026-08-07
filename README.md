@@ -22,8 +22,9 @@ The goal isn't just to use `fit()`, it's to understand what happens behind it.
 ```text
 ml-handson/
 │
-├── Linear Regression/
+├── Regression/
 │   ├── Linear_Regression.ipynb
+    ├── Logistic_Regression.ipynb
 │
 └── README.md
 ```
