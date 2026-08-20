@@ -12,10 +12,11 @@ The goal isn't just to use `fit()`, it's to understand what happens behind it.
 
 ## 🎯 What You'll Find
 
-* Implementations of Machine Learning and Deep Learning algorithms
-* Step-by-step notebooks explaining the intuition and mathematics
-* Visualizations to better understand how algorithms learn
-* Well-documented code focused on learning rather than using high-level APIs
+* Implementations of Machine Learning and Deep Learning algorithms from scratch
+* Step-by-step notebooks explaining the intuition and mathematics behind each algorithm
+* Visualizations to understand how models learn and make predictions
+* Gradient Descent implementations and training visualizations
+* Well-documented code focused on understanding rather than relying on high-level APIs
 
 ## 📂 Repository Structure
 
@@ -23,26 +24,20 @@ The goal isn't just to use `fit()`, it's to understand what happens behind it.
 ml-handson/
 │
 ├── Regression/
-│   ├── Linear_Regression.ipynb
-    ├── Logistic_Regression.ipynb
+│   ├── linear regression from scratch.ipynb
+│   └── logistic regression from scratch.ipynb
 │
 └── README.md
-```
 
-## 📌 Current Projects
+| Project                 | Description                                                                                                                                                                            |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Linear Regression**   | Implemented Linear Regression from scratch using Gradient Descent, including the prediction function, cost function, gradients, parameter updates, and training visualization.         |
+| **Logistic Regression** | Implemented Logistic Regression from scratch using a linear score, Sigmoid function, Binary Cross-Entropy loss, gradients, and Gradient Descent to predict the probability of passing. |
 
-| Project               | Description                                                                                                       |
-| --------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| **Linear Regression** | Implemented Linear Regression from scratch using Gradient Descent without relying on `scikit-learn` for training. |
-
-More projects will be added as I continue exploring the fundamentals of ML and DL.
-
-## 🛠️ Tech Stack
-
-* Python * NumPy * Pandas * Matplotlib * Jupyter Notebook
-
-## ⭐ Why This Repository?
+⭐ Why This Repository?
 
 This repository is for anyone who wants to move beyond using ML libraries and develop a deeper understanding of the algorithms that power modern AI.
+
+The focus is on intuition first, implementation second, and high-level libraries last.
 
 If you find this repository helpful, consider giving it a ⭐.
