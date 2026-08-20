@@ -20,7 +20,6 @@ The goal isn't just to use `fit()`, it's to understand what happens behind it.
 
 ## 📂 Repository Structure
 
-```text
 ml-handson/
 │
 ├── Regression/
